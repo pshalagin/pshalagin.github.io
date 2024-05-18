@@ -1,0 +1,33 @@
+# The Stellar.toml version
+version = "1.0.0"
+
+# The issuer account ID
+issuer = "GCYZXHYYSDM6UCYNK6AEWRUJGCPIM2UTBCR2U7X6NRDQ4AQ3JCPIADOU"
+
+# The network passphrase
+network_passphrase = "Public Global Stellar Network ; September 2015"
+
+# Asset definitions
+[[CURRENCIES]]
+code = "PSY"
+issuer = "GCYZXHYYSDM6UCYNK6AEWRUJGCPIM2UTBCR2U7X6NRDQ4AQ3JCPIADOU"
+display_decimals = 0
+name = "Psychlogy Consultation"
+desc = "An equivalent of 1 hour of psychology consultation services as a Gestalt therapist."
+
+[[CURRENCIES]]
+code = "PSD"
+issuer = "GCYZXHYYSDM6UCYNK6AEWRUJGCPIM2UTBCR2U7X6NRDQ4AQ3JCPIADOU"
+display_decimals = 0
+name = "Software Development"
+desc = "An equivalent of 1 hour of consultation services as a software architect and backend developer."
+
+[[CURRENCIES]]
+code = "PSM"
+issuer = "GCYZXHYYSDM6UCYNK6AEWRUJGCPIM2UTBCR2U7X6NRDQ4AQ3JCPIADOU"
+display_decimals = 0
+name = "Product and Management"
+desc = ""
+
+# Endpoints
+# Add any additional endpoints here if needed
