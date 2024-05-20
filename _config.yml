@@ -35,5 +35,8 @@ exclude:
 
 # Include additional files
 include:
-  - .well-known/stellar.toml
+  - .well-known/
+
+keep_files:
+  - .well-known/
 
