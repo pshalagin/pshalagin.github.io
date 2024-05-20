@@ -1,0 +1,39 @@
+# Site settings
+title: My Jekyll Website
+description: A simple and elegant Jekyll website
+# baseurl: "" # the subpath of your site, e.g. /blog/
+# url: "https://example.com" # the base hostname & protocol for your site
+
+# Build settings
+# markdown: kramdown
+# theme: minima
+# plugins:
+#   - jekyll-feed
+#   - jekyll-sitemap
+
+# Navigation settings
+# nav:
+#   - title: Home
+#     url: /
+#   - title: About
+#     url: /about/
+#   - title: Blog
+#     url: /blog/
+
+# Exclude files and directories from the build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
+  - .github
+  - .sass-cache
+  - .jekyll-cache
+  - _site
+  - README.md
+
+# Include additional files
+include:
+  - .well-known/stellar.toml
+
