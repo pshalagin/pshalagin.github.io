@@ -35,8 +35,7 @@ exclude:
 
 # Include additional files
 include:
-  - .well-known/
+  - .well-known
 
-keep_files:
-  - .well-known/
-
+# keep_files:
+#   - .well-known
