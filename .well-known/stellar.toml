@@ -1,16 +1,24 @@
-# The Stellar.toml version
-version = "1.0.0"
+NETWORK_PASSPHRASE = "Public Global Stellar Network ; September 2015"
+VERSION = "2.0.0"
 
-# The issuer account ID
-issuer = "GCYZXHYYSDM6UCYNK6AEWRUJGCPIM2UTBCR2U7X6NRDQ4AQ3JCPIADOU"
+ACCOUNTS=[
+    "GCYZXHYYSDM6UCYNK6AEWRUJGCPIM2UTBCR2U7X6NRDQ4AQ3JCPIADOU"
+]
 
-# The network passphrase
-network_passphrase = "Public Global Stellar Network ; September 2015"
+# Basic information about the issuing account
+[DOCUMENTATION]
+ORG_NAME = "Pavel Shalagin"
+ORG_URL = "https://pshalagin.github.io"
+ORG_LOGO = "https://pshalagin.github.io/images/stellar-logo.png"
+ORG_DESCRIPTION = "Individual entrepreneur providing services in psychology, software development, and product management."
+ORG_PHYSICAL_ADDRESS = "Montenegro, Bar, Montelibero City"
+ORG_OFFICIAL_EMAIL = "pshalagin+stellar@gmail.com"
 
 # Asset definitions
 [[CURRENCIES]]
 code = "PSY"
 issuer = "GCYZXHYYSDM6UCYNK6AEWRUJGCPIM2UTBCR2U7X6NRDQ4AQ3JCPIADOU"
+is_asset_anchored = false
 display_decimals = 0
 name = "Psychlogy Consultation"
 desc = "An equivalent of 1 hour of psychology consultation services as a Gestalt therapist."
@@ -19,15 +27,12 @@ desc = "An equivalent of 1 hour of psychology consultation services as a Gestalt
 code = "PSD"
 issuer = "GCYZXHYYSDM6UCYNK6AEWRUJGCPIM2UTBCR2U7X6NRDQ4AQ3JCPIADOU"
 display_decimals = 0
-name = "Software Development"
+name = "Software Design and Development"
 desc = "An equivalent of 1 hour of consultation services as a software architect and backend developer."
 
-[[CURRENCIES]]
-code = "PSM"
-issuer = "GCYZXHYYSDM6UCYNK6AEWRUJGCPIM2UTBCR2U7X6NRDQ4AQ3JCPIADOU"
-display_decimals = 0
-name = "Product and Management"
-desc = ""
-
-# Endpoints
-# Add any additional endpoints here if needed
+# [[CURRENCIES]]
+# code = "PSM"
+# issuer = "GCYZXHYYSDM6UCYNK6AEWRUJGCPIM2UTBCR2U7X6NRDQ4AQ3JCPIADOU"
+# display_decimals = 0
+# name = "Product and Project Management"
+# desc = ""

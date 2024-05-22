@@ -1,24 +1,8 @@
 # Site settings
-title: My Jekyll Website
-description: A simple and elegant Jekyll website
+title: Personal Info
+description: Pavel Shalagin personal info website
 # baseurl: "" # the subpath of your site, e.g. /blog/
 # url: "https://example.com" # the base hostname & protocol for your site
-
-# Build settings
-# markdown: kramdown
-# theme: minima
-# plugins:
-#   - jekyll-feed
-#   - jekyll-sitemap
-
-# Navigation settings
-# nav:
-#   - title: Home
-#     url: /
-#   - title: About
-#     url: /about/
-#   - title: Blog
-#     url: /blog/
 
 # Exclude files and directories from the build
 exclude:
@@ -36,6 +20,3 @@ exclude:
 # Include additional files
 include:
   - .well-known
-
-# keep_files:
-#   - .well-known
