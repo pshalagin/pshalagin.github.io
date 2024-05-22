@@ -11,24 +11,28 @@ ORG_NAME = "Pavel Shalagin"
 ORG_URL = "https://pshalagin.github.io"
 ORG_LOGO = "https://pshalagin.github.io/images/stellar-logo.png"
 ORG_DESCRIPTION = "Individual entrepreneur providing services in psychology, software development, and product management."
-ORG_PHYSICAL_ADDRESS = "Montenegro, Bar, Montelibero City"
-ORG_OFFICIAL_EMAIL = "pshalagin+stellar@gmail.com"
+ORG_PHYSICAL_ADDRESS = "Montelibero City, Pečurice, 85356, Montenegro"
+ORG_OFFICIAL_EMAIL = "pshalagin+mtl@gmail.com"
+ORG_GITHUB = "pshalagin"
 
 # Asset definitions
 [[CURRENCIES]]
 code = "PSY"
 issuer = "GCYZXHYYSDM6UCYNK6AEWRUJGCPIM2UTBCR2U7X6NRDQ4AQ3JCPIADOU"
-is_asset_anchored = false
 display_decimals = 0
+is_asset_anchored = false
 name = "Psychlogy Consultation"
-desc = "An equivalent of 1 hour of psychology consultation services as a Gestalt therapist."
+desc = "An equivalent of 1 hour of Pavel's psychology consultation services as a Gestalt therapist."
+image = "https://pshalagin.github.io/images/stellar-logo-psy.png"
 
 [[CURRENCIES]]
 code = "PSD"
 issuer = "GCYZXHYYSDM6UCYNK6AEWRUJGCPIM2UTBCR2U7X6NRDQ4AQ3JCPIADOU"
 display_decimals = 0
+is_asset_anchored = false
 name = "Software Design and Development"
-desc = "An equivalent of 1 hour of consultation services as a software architect and backend developer."
+desc = "An equivalent of 1 hour of Pavel's consultation services as a software architect and backend developer."
+image = "https://pshalagin.github.io/images/stellar-logo-psd.png"
 
 # [[CURRENCIES]]
 # code = "PSM"
