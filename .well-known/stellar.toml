@@ -9,7 +9,7 @@ ACCOUNTS=[
 [DOCUMENTATION]
 ORG_NAME = "Pavel Shalagin"
 ORG_URL = "https://pshalagin.github.io"
-ORG_LOGO = "https://pshalagin.github.io/images/stellar-logo.png"
+ORG_LOGO = "https://pshalagin.github.io/images/stellar-logo.jpg"
 ORG_DESCRIPTION = "Individual entrepreneur providing services in psychology, software development, and product management."
 ORG_PHYSICAL_ADDRESS = "Montelibero City, Pečurice, 85356, Montenegro"
 ORG_OFFICIAL_EMAIL = "pshalagin+mtl@gmail.com"
@@ -24,7 +24,7 @@ display_decimals = 0
 is_asset_anchored = false
 name = "Gestalt Therapy"
 desc = "An equivalent of 1 hour of Pavel's psychology consultation services as a Gestalt therapist."
-image = "https://pshalagin.github.io/images/stellar-logo-psy.png"
+image = "https://pshalagin.github.io/images/stellar-logo-psy.jpg"
 
 [[CURRENCIES]]
 code = "PSD"
@@ -34,7 +34,7 @@ display_decimals = 0
 is_asset_anchored = false
 name = "Software Design"
 desc = "An equivalent of 1 hour of Pavel's consultation services as a software architect and backend developer."
-image = "https://pshalagin.github.io/images/stellar-logo-psd.png"
+image = "https://pshalagin.github.io/images/stellar-logo-psd.jpg"
 
 # [[CURRENCIES]]
 # code = "PSM"

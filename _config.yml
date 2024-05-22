@@ -20,3 +20,4 @@ exclude:
 # Include additional files
 include:
   - .well-known
+  - images
