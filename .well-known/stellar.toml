@@ -2,18 +2,20 @@ NETWORK_PASSPHRASE = "Public Global Stellar Network ; September 2015"
 VERSION = "2.0.0"
 
 ACCOUNTS=[
-    "GCYZXHYYSDM6UCYNK6AEWRUJGCPIM2UTBCR2U7X6NRDQ4AQ3JCPIADOU"
+    "GANVDGQOEN7UILIMTAJBIBBXXAEOPB2AJ7CAOFVGLSZK6DYWQ4CZMISH",
+    "GCYZXHYYSDM6UCYNK6AEWRUJGCPIM2UTBCR2U7X6NRDQ4AQ3JCPIADOU",
+    "GDIEPGDHOBBMQCUIT6SYADZPMY4XH7ETIUFGGCRD5J7L6TELV26O2OEL"
 ]
 
 # Basic information about the issuing account
 [DOCUMENTATION]
-ORG_NAME = "Pavel Shalagin"
-ORG_URL = "https://pshalagin.github.io"
+ORG_NAME = "MF Fund"
+ORG_URL = "https://monte.wiki/en/MF_Fund"
 ORG_LOGO = "https://pshalagin.github.io/images/stellar-logo.jpg"
-ORG_DESCRIPTION = "Individual entrepreneur providing services in psychology, software development, and product management."
+ORG_DESCRIPTION = "A family fund of @pshalagin and @ikandrakhina."
 ORG_PHYSICAL_ADDRESS = "Montelibero City, Pečurice, 85356, Montenegro"
 ORG_OFFICIAL_EMAIL = "pshalagin+mtl@gmail.com"
-ORG_GITHUB = "pshalagin"
+#ORG_GITHUB = "pshalagin"
 
 # Asset definitions
 [[CURRENCIES]]
@@ -22,8 +24,8 @@ status = "live"
 issuer = "GCYZXHYYSDM6UCYNK6AEWRUJGCPIM2UTBCR2U7X6NRDQ4AQ3JCPIADOU"
 display_decimals = 0
 is_asset_anchored = false
-name = "Gestalt Therapy"
-desc = "An equivalent of 1 hour of Pavel's psychology consultation services as a Gestalt therapist."
+name = "Gestalt Consultation"
+desc = "An equivalent of 1 hour of @pshalagin consultation services as a Gestalt therapist."
 image = "https://pshalagin.github.io/images/stellar-logo-psy.jpg"
 
 [[CURRENCIES]]
@@ -32,13 +34,6 @@ status = "live"
 issuer = "GCYZXHYYSDM6UCYNK6AEWRUJGCPIM2UTBCR2U7X6NRDQ4AQ3JCPIADOU"
 display_decimals = 0
 is_asset_anchored = false
-name = "Software Design"
-desc = "An equivalent of 1 hour of Pavel's consultation services as a software architect and backend developer."
+name = "IT Services"
+desc = "An equivalent of 1 hour of @pshalagin consultation services as a software architect and backend developer."
 image = "https://pshalagin.github.io/images/stellar-logo-psd.jpg"
-
-# [[CURRENCIES]]
-# code = "PSM"
-# issuer = "GCYZXHYYSDM6UCYNK6AEWRUJGCPIM2UTBCR2U7X6NRDQ4AQ3JCPIADOU"
-# display_decimals = 0
-# name = "Product and Project Management"
-# desc = ""
